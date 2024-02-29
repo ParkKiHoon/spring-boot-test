@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.test.TestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-29T05:22:52" hostname="PARK" time="0.586">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.test.TestApplicationTests" time="0.586"/>
+  <system-out><![CDATA[14:22:47.311 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.test.TestApplicationTests]: TestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:22:47.398 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.test.TestApplication for test class com.example.test.TestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-02-29T14:22:47.892+09:00  INFO 24548 --- [    Test worker] com.example.test.TestApplicationTests    : Starting TestApplicationTests using Java 17.0.10 with PID 24548 (started by vpfmt in C:\Users\vpfmt\Desktop\test)
+2024-02-29T14:22:47.894+09:00  INFO 24548 --- [    Test worker] com.example.test.TestApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-02-29T14:22:48.601+09:00  INFO 24548 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-29T14:22:48.603+09:00  INFO 24548 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-02-29T14:22:48.634+09:00  INFO 24548 --- [    Test worker] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.example.test.data.repository.ProductRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-02-29T14:22:48.634+09:00  INFO 24548 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2024-02-29T14:22:48.643+09:00  INFO 24548 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-29T14:22:48.645+09:00  INFO 24548 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29T14:22:48.674+09:00  INFO 24548 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-02-29T14:22:49.145+09:00  INFO 24548 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-29T14:22:49.233+09:00  INFO 24548 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-02-29T14:22:49.276+09:00  INFO 24548 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-02-29T14:22:49.523+09:00  INFO 24548 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-29T14:22:49.553+09:00  INFO 24548 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-29T14:22:49.724+09:00  INFO 24548 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@312a738d
+2024-02-29T14:22:49.726+09:00  INFO 24548 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-29T14:22:50.606+09:00  INFO 24548 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-02-29T14:22:50.649+09:00  INFO 24548 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29T14:22:52.118+09:00  INFO 24548 --- [    Test worker] com.example.test.TestApplicationTests    : Started TestApplicationTests in 4.545 seconds (process running for 5.688)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
